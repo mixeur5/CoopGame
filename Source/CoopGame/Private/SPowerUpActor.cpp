@@ -32,7 +32,7 @@ void ASPowerUpActor::OnTickPowerup()
 
 void ASPowerUpActor::OnRep_Activated()
 {
-	OnStateChanged(bIsActivated);
+	OnStateChanged();
 }
 
 void ASPowerUpActor::ActivatePowerup(AActor* TargetActor)

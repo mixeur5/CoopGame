@@ -43,7 +43,7 @@ public:
 	void ActivatePowerup(AActor* TargetActor);
 
 	UFUNCTION(BlueprintImplementableEvent, Category = "Powerup")
-		void OnStateChanged(bool bIsActivated);
+		void OnStateChanged();
 	
 	UFUNCTION(BlueprintImplementableEvent, Category = "Powerup")
 		void OnActivated(AActor* TargetActor);
