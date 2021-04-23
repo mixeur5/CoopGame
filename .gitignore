@@ -4,6 +4,12 @@
 #Content
 Content/*
 
+#.vscode
+.vscode/
+
+#.code-workspace
+*.code-workspace
+
 #Cs files
 *.cs
 
